@@ -1,9 +1,7 @@
-import { createFileRoute, redirect } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 
 export const Route = createFileRoute("/")({
-  beforeLoad: () => {
-    throw redirect({ href: "/site/index.html" });
-  },
   head: () => ({
     meta: [
       { title: "Hvillas — Home" },
@@ -12,5 +10,12 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "Hvillas architecture and villa design." },
     ],
   }),
-  component: () => null,
+  component: Index,
 });
+
+function Index() {
+  useEffect(() => {
+    window.location.replace("/site/index.html");
+  }, []);
+  return <div className="min-h-screen bg-background" />;
+}
