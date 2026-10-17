@@ -9118,6 +9118,13 @@ form.woocommerce-ordering:after {
 .effect-hvr3 .effect-sarah img {
   position: relative;
   display: block;
+  width: 100%;
+  height: auto;
+}
+/* Home page projects carousel: keep every card the same height */
+.pro-filtr-cate-bx .effect-hvr3 .effect-sarah img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 .effect-hvr3 .effect-hvr3-inner {
   padding: 30px;
