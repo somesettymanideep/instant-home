@@ -13216,3 +13216,21 @@ select {
     width: 50px;
   }
 }
+
+/* Trim the empty margins baked into each cut-out so the artwork fills its box.
+   Each ratio matches that image's visible area, so nothing is cropped away. */
+.twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide img.sea-hero-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.sea-hero-art--arch {
+  aspect-ratio: 1420 / 758;
+}
+.sea-hero-art--land {
+  aspect-ratio: 1602 / 795;
+}
+.sea-hero-art--int {
+  aspect-ratio: 1432 / 919;
+}
