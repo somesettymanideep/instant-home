@@ -9458,11 +9458,8 @@ form.woocommerce-ordering:after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  align-self: stretch;
-}
-.video-section2-outer-wrap .section-content .row.align-items-center {
-  align-items: stretch;
+  height: 700px;
+  align-self: center;
 }
 @media (max-width: 1440px) {
   .video-section2-outer-wrap .video-section2-right {
