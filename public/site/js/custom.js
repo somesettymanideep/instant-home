@@ -537,29 +537,21 @@ All JavaScript fuctions Start
 //-------- Home 1 Slider------------//
 function slider_home_one(){
 
-	var swiper2 = new Swiper(".twm-slider1", {
-		thumbs: {swiper: swiper,},
+	var swiper = new Swiper(".twm-slider1-content", {
 		slidesPerView: 1,
 		speed: 3000,
 		parallax: true,
 		freeMode: false,
 		loop:true,
 		grabCursor: true,
-		effect: "creative",
-		creativeEffect: {
-			prev: {
-			  shadow: false,
-			  translate: ["-120%", 0, -500],
-			},
-			next: {
-			  shadow: false,
-			  translate: ["120%", 0, -500],
-			},
-		},
 		autoplay: {
 			delay: 2500,
 			disableOnInteraction: false
 		},
+	});
+
+	var swiper2 = new Swiper(".twm-slider1", {
+		controller: { control: swiper },
 		navigation: {
 			nextEl: ".swiper-button-next",
 			prevEl: ".swiper-button-prev",
