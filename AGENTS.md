@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep project scroll motion in `public/site/js/sea-projects.js` using GSAP matchMedia with reduced-motion cleanup; separate the hover wrapper from the image transform so scroll and hover never conflict.
