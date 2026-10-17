@@ -13128,3 +13128,54 @@ select {
         transition: none;
     }
 }
+
+/* ==========================================================================
+   SEA — Hero: tighter top spacing + larger left-side image
+   ========================================================================== */
+
+/* The old 830 / 630px boxes left a wide empty band above the cut-out image. */
+.twm-slider1-wrap {
+  height: 640px;
+}
+@media (max-width: 1366px) {
+  .twm-slider1-wrap {
+    height: 500px;
+  }
+}
+@media (max-width: 1024px) {
+  .twm-slider1-wrap {
+    height: 460px;
+  }
+}
+@media (max-width: 768px) {
+  .twm-slider1-wrap {
+    height: auto !important;
+  }
+}
+
+/* Let the image use the whole left panel instead of losing 100px to side padding. */
+.twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (max-width: 768px) {
+  .twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Tablet / compact desktop: a wider image panel, with the text block pulled in
+   so its two-line heading still has room. */
+@media (max-width: 1024px) {
+  .twm-slider1-wrap .twm-slider1 {
+    max-width: 50vw;
+  }
+  .twm-slider1-wrap .twm-slider1-content {
+    width: calc(100vw - 50%);
+  }
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    margin-left: 30px;
+    padding: 30px;
+  }
+}
