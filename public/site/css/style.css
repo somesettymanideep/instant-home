@@ -13167,7 +13167,7 @@ select {
 
 /* Tablet / compact desktop: a wider image panel, with the text block pulled in
    so its two-line heading still has room. */
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .twm-slider1-wrap .twm-slider1 {
     max-width: 50vw;
   }
