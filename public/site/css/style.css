@@ -145,7 +145,7 @@ This files [Table of contents] are outlined below
 
 body {
   color: #797979;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   font-family: "Urbanist", serif;
   line-height: 1.7;
   font-weight: 500;
@@ -4514,7 +4514,7 @@ THEMEFOREST REQUIRED CLASSES
   }
 }
 .company-exp-position .company-exp .company-exp-tagline {
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   max-width: 310px;
   position: absolute;
   top: 50%;
@@ -4523,7 +4523,7 @@ THEMEFOREST REQUIRED CLASSES
   padding: 30px;
   outline-width: 3px;
   outline-offset: 15px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
   border-top: 10px solid #fff;
   border-left: 10px solid #a19d9c;
@@ -5113,7 +5113,7 @@ THEMEFOREST REQUIRED CLASSES
   padding: 50px 30px;
   background-color: #fff;
   outline-width: 3px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
   outline-offset: 15px;
   margin: 18px;
@@ -5221,9 +5221,9 @@ THEMEFOREST REQUIRED CLASSES
 
 .home-client-carousel {
   padding: 30px 0;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   outline-width: 3px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
   outline-offset: 15px;
   margin: 50px 20px 48px 20px;
@@ -5646,7 +5646,7 @@ button.scroltop span {
   position: relative;
   overflow: hidden;
   outline-width: 3px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
 }
 .pricing-table-1 .p-table-title {
@@ -5780,7 +5780,7 @@ button.scroltop span {
   position: relative;
   overflow: hidden;
   outline-width: 3px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
 }
 .pricing-table-2 .p-table-title {
@@ -6149,7 +6149,7 @@ button.scroltop span {
   }
 }
 .project-single-sibar-info .info-list-1 li {
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   display: block;
   font-size: 16px;
   width: calc(50% - 5px);
@@ -6455,7 +6455,7 @@ button.scroltop span {
 .side-bar .widget {
   padding: 30px;
   margin-bottom: 0px;
-  border-bottom: 1px solid #f9f3ea;
+  border-bottom: 1px solid #e9f3f5;
 }
 .side-bar .widget:last-child {
   margin-bottom: 0;
@@ -8352,7 +8352,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   line-height: 36px;
   display: block;
   text-align: center;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   position: relative;
   color: #443935;
   transition: 0.5s all ease;
@@ -9090,7 +9090,7 @@ form.woocommerce-ordering:after {
   line-height: 60px;
   text-align: center;
   display: block;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   color: #007890;
   font-size: 22px;
   position: absolute;
@@ -9547,8 +9547,8 @@ form.woocommerce-ordering:after {
   color: #007890;
   transition: 0.5s all ease;
   font-weight: 900;
-  background: #F9F3EA;
-  background: linear-gradient(to top, #F9F3EA 20%, #F9F3EA -60%, #fff 90%);
+  background: #e9f3f5;
+  background: linear-gradient(to top, #e9f3f5 20%, #e9f3f5 -60%, #fff 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
@@ -9701,7 +9701,7 @@ form.woocommerce-ordering:after {
   z-index: 1;
   padding: 30px;
   outline-width: 3px;
-  outline-color: #f5ead8;
+  outline-color: #e9f3f5;
   outline-style: double;
 }
 .service-icon-box-two .service-media {
@@ -9769,7 +9769,7 @@ form.woocommerce-ordering:after {
 .service-icon-box-two .service-icon span {
   width: 80px;
   height: 80px;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9831,7 +9831,7 @@ form.woocommerce-ordering:after {
 .icon-box-style-three-wrap .icon-box-style-three {
   padding: 60px 40px;
   border: 1px solid #443935;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   transition: all 0.5s ease-in-out;
   -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
           clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
@@ -10291,7 +10291,7 @@ form.woocommerce-ordering:after {
   margin: 0;
   height: 100%;
   position: relative;
-  background: #f9f3ea;
+  background: #e9f3f5;
 }
 @media (max-width: 1366px) {
   .twm-slider1-wrap .twm-slider1-content {
@@ -10527,7 +10527,7 @@ form.woocommerce-ordering:after {
   bottom: 0px;
   z-index: 1;
   padding: 40px 30px 30px 30px;
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   z-index: 50;
 }
 @media (max-width: 1024px) {
@@ -10659,7 +10659,7 @@ form.woocommerce-ordering:after {
 .slider-circle-pic-wrap {
   position: relative;
   overflow: hidden;
-  background-color: #f1ebe3;
+  background-color: #e9f3f5;
 }
 .slider-circle-pic-wrap .slider-circle-pic {
   position: absolute;
@@ -11002,8 +11002,8 @@ select {
   align-items: center;
 }
 .twm-category-carousal-slider .owl-stage .owl-item:nth-child(odd) .twm-category-name {
-  color: #f9f3ea;
-  -webkit-text-fill-color: #f9f3ea;
+  color: #e9f3f5;
+  -webkit-text-fill-color: #e9f3f5;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #443935;
   font-family: "Urbanist", serif;
@@ -11809,7 +11809,7 @@ select {
   transform: translate(-50%, -50%);
 }
 .acod-head [aria-expanded=true] .indicator {
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
 }
 .acod-head [aria-expanded=true] .indicator i {
   color: #443935;
@@ -12207,7 +12207,7 @@ select {
   background-position: bottom;
 }
 .twm-ab2-section-wrap .twm-ab2-section-bx {
-  background-color: #f9f3ea;
+  background-color: #e9f3f5;
   padding: 50px;
   margin-bottom: 30px;
 }
