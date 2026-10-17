@@ -13193,3 +13193,26 @@ select {
     margin-bottom: 14px;
   }
 }
+
+/* Keep the big outline slide number clear of the Read More button now that the
+   panel is shorter. */
+@media (min-width: 1367px) {
+  .twm-slider1-wrap .xl-title span {
+    font-size: 132px;
+    line-height: 140px;
+  }
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    padding-bottom: 90px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1366px) {
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    padding-bottom: 80px;
+  }
+}
+/* Tablet: keep the corner-bracket accent a full corner instead of a bare bar. */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail:before {
+    width: 50px;
+  }
+}
