@@ -12856,3 +12856,44 @@ select {
 .sidebar-info-contents .text {
   color: #9b9fb5;
 }/*# sourceMappingURL=style.css.map */
+/** - SEA brand hero slider overrides */
+.twm-slider1-wrap {
+  background-color: #00788F;
+}
+.twm-slider1-wrap .twm-slider1-content {
+  background: #00566B;
+}
+.twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail .sm-title {
+  color: rgba(255, 255, 255, 0.75);
+}
+.twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail .wt-title {
+  color: #ffffff;
+}
+.twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail:before {
+  border-left-color: #7FCFD8;
+  border-top-color: #7FCFD8;
+}
+.twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail .site-button {
+  background-color: #ffffff;
+  color: #00566B;
+}
+.twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail .site-button:hover {
+  color: #00566B;
+}
+.twm-slider1-wrap .controls-area {
+  background-color: #00485C;
+}
+.twm-slider1-wrap .controls-area .swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.twm-slider1-wrap .controls-area .swiper-scrollbar .swiper-scrollbar-drag {
+  background: #7FCFD8 !important;
+}
+.twm-slider1-wrap .xl-title span {
+  -webkit-text-stroke: 2px #7FCFD8;
+  text-stroke: 2px #7FCFD8;
+}
+.twm-slider1-wrap .swiper-button-next::after,
+.twm-slider1-wrap .swiper-button-prev::after {
+  color: #ffffff;
+}
