@@ -8,6 +8,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "SEA - Studio for Eclectic Architecture" },
       { property: "og:title", content: "SEA — Studio for Eclectic Architecture" },
       { property: "og:description", content: "SEA - Studio for Eclectic Architecture" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
