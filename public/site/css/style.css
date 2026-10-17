@@ -2676,7 +2676,7 @@ THEMEFOREST REQUIRED CLASSES
   right: 0px;
   left: 0px;
   height: 90px;
-  background-color: #443935;
+  background-color: #007890;
   z-index: -1;
 }
 @media (max-width: 991px) {
@@ -2713,7 +2713,7 @@ THEMEFOREST REQUIRED CLASSES
 .header-style-1 .logo-header .logo-header-inner:after {
   content: "";
   position: absolute;
-  background-color: #443935;
+  background-color: #007890;
   top: 0px;
   bottom: 0px;
   right: 0px;
@@ -3463,8 +3463,9 @@ THEMEFOREST REQUIRED CLASSES
   z-index: 1;
 }
 .header-style-2 .logo-header .logo-header-inner img {
-  max-width: 160px;
-  max-height: 100%;
+  max-width: 170px;
+  max-height: 65px;
+  object-fit: contain;
 }
 @media (max-width: 360px) {
   .header-style-2 .logo-header .logo-header-inner img {
@@ -3531,8 +3532,8 @@ THEMEFOREST REQUIRED CLASSES
   align-items: center;
   border: 70px solid #f3f2ef;
   border-bottom: 0px;
-  border-top: 30px solid #443935;
-  border: 20px solid #443935;
+  border-top: 30px solid #007890;
+  border: 20px solid #007890;
   border-bottom: 20px solid #f3f3f3;
   border-top: 20px solid #f3f3f3;
 }
@@ -3574,7 +3575,7 @@ THEMEFOREST REQUIRED CLASSES
   }
 }
 .header-style-2 .navbar-toggler .icon-bar {
-  background: #443935;
+  background: #007890;
   height: 3px;
   border-radius: 0px;
   display: block;
@@ -5255,18 +5256,26 @@ THEMEFOREST REQUIRED CLASSES
 }
 
 /** - Footer Dark Version Css */
+.site-footer {
+  background-color: #007890;
+}
 .footer-dark {
-  background-color: #000;
-  color: #797979;
+  background-color: #007890;
+  color: rgba(255, 255, 255, 0.85);
 }
 .footer-dark .logo-footer {
   margin-right: 120px;
   margin-bottom: 40px;
   text-align: center;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 40px;
   max-width: 236px;
+}
+.footer-dark .logo-footer img {
+  max-width: 200px;
+  height: auto;
+  filter: brightness(0) invert(1);
 }
 @media (max-width: 1199px) {
   .footer-dark .logo-footer {
@@ -5276,9 +5285,9 @@ THEMEFOREST REQUIRED CLASSES
 }
 .footer-dark .footer-top {
   padding: 0;
-  background: #312925;
+  background: #007890;
   padding: 100px 0px 60px 0px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.85);
 }
 @media (max-width: 991px) {
   .footer-dark .footer-top {
@@ -5358,12 +5367,13 @@ THEMEFOREST REQUIRED CLASSES
   background-color: #fff;
 }
 .footer-dark .footer-bottom {
-  background-color: #2d2623;
+  background-color: #007890;
   padding: 0;
   color: #fff;
   position: relative;
   z-index: 1;
   font-weight: 400;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 .footer-dark .footer-bottom .footer-bottom-info {
   display: flex;

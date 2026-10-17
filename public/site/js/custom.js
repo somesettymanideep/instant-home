@@ -447,6 +447,7 @@ All JavaScript fuctions Start
 
 //  Client logo Carousel function by = owl.carousel.js ========================== //
 	function home_client_carousel(){
+		if (!document.querySelector(".home-client-carousel")) return;
 		var swiper = new Swiper(".home-client-carousel", {
 		  slidesPerView: 1,
 		  spaceBetween: 5,
