@@ -5437,6 +5437,17 @@ THEMEFOREST REQUIRED CLASSES
 .footer-dark .widget_address li i {
   font-weight: 400;
 }
+/* Footer link lists: keep the entries close together */
+.footer-dark .widget_address.sea-footer-links li {
+  border: none !important;
+  margin: 0 !important;
+  padding: 3px 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 3px !important;
+}
+.footer-dark .widget_address.sea-footer-links li:last-child {
+  padding-bottom: 3px !important;
+}
 .footer-dark .recent-posts-entry .wt-post-info .wt-post-meta ul li {
   color: #007890;
 }
