@@ -568,33 +568,6 @@ function slider_home_one(){
 		},
 	});
 
-	var swiper = new Swiper(".twm-slider1-content", {
-		slidesPerView: 1,
-		speed: 3000,
-		parallax: true,
-		freeMode: false,
-		loop:true,
-		grabCursor: true,
-		autoplay: {
-			delay: 2500,
-			disableOnInteraction: false
-		},
-		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
-		},
-		
-		scrollbar: {
-			el: ".swiper-scrollbar",
-			hide: false,
-			
-		},
-		pagination: {
-			el: ".swiper-pagination",
-			type: "fraction",
-		},
-		
-	});
 		
 }
 
