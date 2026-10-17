@@ -4,4 +4,4 @@
 - [x] Replace homepage testimonials with the About One section.
 - [x] Verify projects and testimonial navigation on the live homepage.
 - [x] Match the reference video's scroll-linked column and image movement.
-- [ ] Verify project motion, image coverage, and reduced-motion fallback in the live homepage.
+- [x] Verify project motion, image coverage, and reduced-motion fallback in the live homepage.
