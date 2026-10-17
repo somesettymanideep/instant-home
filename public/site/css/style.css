@@ -10405,6 +10405,11 @@ form.woocommerce-ordering:after {
   margin-bottom: 50px;
   text-transform: capitalize;
   color: #443935;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 @media (max-width: 1366px) {
   .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail .wt-title {
