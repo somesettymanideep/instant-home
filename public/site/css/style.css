@@ -13130,10 +13130,28 @@ select {
 }
 
 /* ==========================================================================
-   SEA — Hero: tighter top spacing + larger left-side image
+   SEA — Hero: tighter top spacing, larger left-side image
    ========================================================================== */
 
-/* Panel height: the old 830 / 630px boxes left a wide empty band above the cut-out. */
+/* Wider image panel, text panel fills the rest and keeps clearance for the
+   vertical social strip so the headline never runs under it. */
+@media (min-width: 769px) {
+  .twm-slider1-wrap .twm-slider1 {
+    flex: 0 0 min(50vw, 780px);
+    max-width: min(50vw, 780px);
+    width: 100%;
+  }
+  .twm-slider1-wrap .twm-slider1-content {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    padding-right: 90px;
+  }
+}
+
+/* Panel height: the old 830 / 630px boxes left a wide empty band above the art. */
 .twm-slider1-wrap {
   height: 660px;
 }
@@ -13153,8 +13171,7 @@ select {
   }
 }
 
-/* The image uses the whole left panel instead of losing 100px to side padding,
-   and stops above the slide-control bar so nothing is covered. */
+/* The art uses the whole panel width and stops above the slide-control bar. */
 .twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide {
   padding-left: 12px;
   padding-right: 12px;
@@ -13171,12 +13188,48 @@ select {
   }
 }
 
-/* Tablet / compact desktop: text block pulled in, with clearance for the
-   vertical social strip so the headline never runs under it. */
+/* Each cut-out has a wide transparent margin baked in; the frame below matches
+   that image's visible area so the artwork fills its box. */
+.twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide img.sea-hero-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.sea-hero-art--arch {
+  aspect-ratio: 1420 / 758;
+}
+.sea-hero-art--land {
+  aspect-ratio: 1602 / 795;
+}
+.sea-hero-art--int {
+  aspect-ratio: 1432 / 919;
+}
+
+/* Tablet / compact desktop: text block pulled in. */
 @media (min-width: 769px) and (max-width: 1024px) {
   .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
     margin-left: 30px;
     padding: 30px 90px 30px 30px;
+  }
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail:before {
+    width: 50px;
+  }
+}
+
+/* Keep the big outline slide number clear of the Read More button. */
+@media (min-width: 1367px) {
+  .twm-slider1-wrap .xl-title span {
+    font-size: 132px;
+    line-height: 140px;
+  }
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    padding-bottom: 90px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1366px) {
+  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
+    padding-bottom: 80px;
   }
 }
 
@@ -13192,45 +13245,4 @@ select {
     letter-spacing: 1.5px;
     margin-bottom: 14px;
   }
-}
-
-/* Keep the big outline slide number clear of the Read More button now that the
-   panel is shorter. */
-@media (min-width: 1367px) {
-  .twm-slider1-wrap .xl-title span {
-    font-size: 132px;
-    line-height: 140px;
-  }
-  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
-    padding-bottom: 90px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1366px) {
-  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail {
-    padding-bottom: 80px;
-  }
-}
-/* Tablet: keep the corner-bracket accent a full corner instead of a bare bar. */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .twm-slider1-wrap .twm-slider1-content-inner .twm-slider1-content-inner-detail:before {
-    width: 50px;
-  }
-}
-
-/* Trim the empty margins baked into each cut-out so the artwork fills its box.
-   Each ratio matches that image's visible area, so nothing is cropped away. */
-.twm-slider1-wrap .twm-slider1 .twm-slider1-slides .swiper-slide img.sea-hero-art {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.sea-hero-art--arch {
-  aspect-ratio: 1420 / 758;
-}
-.sea-hero-art--land {
-  aspect-ratio: 1602 / 795;
-}
-.sea-hero-art--int {
-  aspect-ratio: 1432 / 919;
 }
