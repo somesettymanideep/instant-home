@@ -5257,10 +5257,10 @@ THEMEFOREST REQUIRED CLASSES
 
 /** - Footer Dark Version Css */
 .site-footer {
-  background-color: #007890;
+  background-color: #003541;
 }
 .footer-dark {
-  background-color: #007890;
+  background-color: #003541;
   color: rgba(255, 255, 255, 0.85);
 }
 .footer-dark .logo-footer {
@@ -5285,7 +5285,7 @@ THEMEFOREST REQUIRED CLASSES
 }
 .footer-dark .footer-top {
   padding: 0;
-  background: #007890;
+  background: #003541;
   padding: 100px 0px 60px 0px;
   color: rgba(255, 255, 255, 0.85);
 }
@@ -5367,7 +5367,7 @@ THEMEFOREST REQUIRED CLASSES
   background-color: #fff;
 }
 .footer-dark .footer-bottom {
-  background-color: #007890;
+  background-color: #003541;
   padding: 0;
   color: #fff;
   position: relative;
