@@ -9824,6 +9824,10 @@ form.woocommerce-ordering:after {
   align-items: center;
   justify-content: center;
 }
+.icon-box-style-three-wrap .icon-lg i {
+  font-size: 40px;
+  line-height: 40px;
+}
 .icon-box-style-three-wrap .icon-box-style-three {
   padding: 60px 40px;
   border: 1px solid #443935;
