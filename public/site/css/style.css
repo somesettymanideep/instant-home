@@ -13371,5 +13371,76 @@ select {
   color: #d8f3f7;
 }
 
+/* Pyramid Icon on top of Sub-Headings */
+.sea-pyramid-icon {
+  display: block;
+  width: 42px;
+  height: auto;
+  margin: 0 auto 10px auto;
+  object-fit: contain;
+}
 
+.section-head.left .sea-pyramid-icon,
+.sea-projects-head .sea-pyramid-icon {
+  margin: 0 0 10px 0;
+}
 
+.section-head.when-bg-dark .sea-pyramid-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Remove old skewed box and vertical line backdrop behind house icon */
+.wt-small-separator:before,
+.wt-small-separator:after,
+.section-head.left.wt-small-separator-outer .wt-small-separator:before,
+.section-head.left.wt-small-separator-outer .wt-small-separator:after {
+  display: none !important;
+}
+
+.section-head.left.wt-small-separator-outer .wt-small-separator {
+  padding-left: 0 !important;
+}
+
+/* Increased font-size for Sub-Headings in all sections */
+.wt-small-separator,
+.wt-small-separator > div {
+  font-size: 18px !important;
+  line-height: 26px !important;
+  letter-spacing: 2.5px !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 768px) {
+  .wt-small-separator,
+  .wt-small-separator > div {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+  }
+}
+
+/* Decreased font-size for Headings in all sections (excluding hero section) */
+.section-head h2,
+.section-head .wt-title,
+.sea-projects-title {
+  font-size: 32px !important;
+  line-height: 40px !important;
+}
+
+@media (max-width: 1024px) {
+  .section-head h2,
+  .section-head .wt-title,
+  .sea-projects-title {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-head h2,
+  .section-head .wt-title,
+  .sea-projects-title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+}
