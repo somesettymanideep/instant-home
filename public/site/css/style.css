@@ -13246,3 +13246,130 @@ select {
     margin-bottom: 14px;
   }
 }
+
+/* Hero section right-side bottom corner sketch display */
+.slider-circle-pic-wrap .hero-corner-sketch-wrap,
+.hero-corner-sketch-wrap {
+  position: absolute;
+  right: 70px;
+  bottom: 0px;
+  z-index: 5;
+  pointer-events: none;
+  max-width: 480px;
+  width: 32vw;
+  line-height: 0;
+  display: block;
+}
+
+.slider-circle-pic-wrap .hero-corner-sketch-wrap img,
+.hero-corner-sketch-wrap .hero-corner-sketch-img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  opacity: 1;
+  object-fit: contain;
+  object-position: right bottom;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (max-width: 1366px) {
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap,
+  .hero-corner-sketch-wrap {
+    max-width: 400px;
+    width: 30vw;
+  }
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap img,
+  .hero-corner-sketch-wrap .hero-corner-sketch-img {
+    max-height: 290px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap,
+  .hero-corner-sketch-wrap {
+    max-width: 320px;
+    width: 32vw;
+  }
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap img,
+  .hero-corner-sketch-wrap .hero-corner-sketch-img {
+    max-height: 235px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap,
+  .hero-corner-sketch-wrap {
+    right: 15px;
+    bottom: 0px;
+    max-width: 250px;
+    width: 48vw;
+  }
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap img,
+  .hero-corner-sketch-wrap .hero-corner-sketch-img {
+    max-height: 180px;
+    opacity: 0.85;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap,
+  .hero-corner-sketch-wrap {
+    right: 10px;
+    bottom: 0px;
+    max-width: 190px;
+    width: 45vw;
+  }
+  .slider-circle-pic-wrap .hero-corner-sketch-wrap img,
+  .hero-corner-sketch-wrap .hero-corner-sketch-img {
+    max-height: 140px;
+    opacity: 0.8;
+  }
+}
+
+/* Testimonials section background image styling */
+.testimonial2-outer-wrap {
+  position: relative;
+  overflow: hidden;
+  background-color: #38302c;
+}
+
+.testimonial2-outer-wrap .parallax-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.testimonial2-outer-wrap .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Testimonial cards styling without profile images */
+.testimonial-2-content .testimonial-2 .testimonial-detail {
+  padding: 18px 25px 20px;
+  display: block;
+  text-align: left;
+}
+
+.testimonial-2-content .testimonial-2 .testimonial-info {
+  padding-top: 0px;
+  text-align: left;
+}
+
+.testimonial-2-content .testimonial-2 .testimonial-info .testimonial-position {
+  color: #d8f3f7;
+}
+
+
+
