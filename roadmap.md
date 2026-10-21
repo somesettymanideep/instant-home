@@ -1,6 +1,6 @@
 # Homepage updates
 
-- [ ] Fix hosted image links for local VS Code previews and verify all eight studio images.
+- [x] Fix hosted image links for local VS Code previews and verify all eight studio images.
 - [x] Remove template demo projects, keeping the five studio projects.
 - [x] Replace homepage testimonials with the About One section.
 - [x] Verify projects and testimonial navigation on the live homepage.

@@ -10,6 +10,8 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "SEA - Studio for Eclectic Architecture" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:image", content: "https://instant-home.lovable.app/__l5e/assets-v1/8ddbed86-e376-44e6-853c-a3ae3281038b/hero-architecture.png" },
+      { name: "twitter:image", content: "https://instant-home.lovable.app/__l5e/assets-v1/8ddbed86-e376-44e6-853c-a3ae3281038b/hero-architecture.png" },
     ],
   }),
   component: Index,
